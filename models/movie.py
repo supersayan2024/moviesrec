@@ -21,3 +21,8 @@ class Movie:
         print(f"Description: {self.description}")
         print(f"Categories: {', '.join([str(category) for category in self.categories])}")
         print(f"Actors: {', '.join([str(actor) for actor in self.actors])}")
+fafa = Movie("undisputed", 2, "C'est un film de combat")
+
+fafa.add_category("drama")
+fafa.add_actor("alain")
+fafa.display_info()

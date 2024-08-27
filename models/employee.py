@@ -16,3 +16,6 @@ class Employee(Person):
         print(f"Hire Date: {self.hire_date}")  # Updated to match the attribute name
         print(f"User Code: {self.user_code}")
         print(f"Access Type: {self.access_type}")
+connard = Employee("didier", "isac", "bi", "28aou2024", "didieris", "ami12341234", "full")
+connard.display_info()
+print(connard)

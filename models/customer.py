@@ -19,3 +19,6 @@ class Customer(Person):
         print(f"Registration Date: {self.registration_date}")
         print(f"Email: {self.email}")
         print(f"Credit Cards: {', '.join([str(card) for card in self.credit_cards])}")
+
+fo = Customer("sebastien", "gagnon", "homme", "28aou2024 ", "yves_mch@yahoo.fr", "ami12345678")
+fo.display_info()

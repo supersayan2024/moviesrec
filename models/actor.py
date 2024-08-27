@@ -17,3 +17,6 @@ class Actor(Person):
         print(f"Start of Employment: {self.start_of_employment}")
         print(f"End of Employment: {self.end_of_employment}")
         print(f"Stamp: ${self.stamp:.2f}")
+ex3 = Actor("imam", "dan", "mas", "im", "26aout2024", "26aout2025", 5.1)
+ex3.display_info()
+print(ex3)
